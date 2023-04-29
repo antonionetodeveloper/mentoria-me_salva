@@ -4,8 +4,8 @@ def produto(primeiro_numero, segundo_numero):
 def soma(primeiro_numero, terceiro_numero):
     return primeiro_numero*3 + terceiro_numero
 
-def potencia(primeiro_numero):
-    return primeiro_numero**3
+def potencia(terceiro_numero):
+    return terceiro_numero**3
 
 primeiro_numero = float(input("Digite o primeiro número: "))
 segundo_numero = float(input("Digite o segundo número: "))
