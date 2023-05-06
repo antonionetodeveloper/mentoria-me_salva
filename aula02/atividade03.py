@@ -18,7 +18,7 @@ if quantidade_do_produto > 20 and quantidade_do_produto <= 50:
     valor_com_desconto = valor_total - (valor_total * desconto)
     print(f"{quantidade_do_produto} unidades de {nome_do_produto} custam R$ {valor_com_desconto:.2f} já com 20% de desconto aplicado.")
 
-else:
+if quantidade_do_produto > 50:
     desconto = 0.25 # 25% de desconto
     valor_total = preco_do_produto * quantidade_do_produto
     valor_com_desconto = valor_total - (valor_total * desconto)
